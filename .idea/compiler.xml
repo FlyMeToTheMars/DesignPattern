@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="12_ChainRespPattern" />
+        <module name="13_TemplateMethodPattern" />
+        <module name="20_CompositePattern" />
+        <module name="15_CommandPattern" />
+        <module name="03_FactoryPattern" />
+        <module name="09_StatePattern" />
+        <module name="10_StrategyPattern" />
+        <module name="04_AbstractFactoryPattern" />
+        <module name="01_SingletonPattern" />
+        <module name="16_BuilderPattern" />
+        <module name="05_DecoratorPattern" />
+        <module name="08_FacadePattern" />
+        <module name="18_MementoPattern" />
+        <module name="23_VisitorPattern" />
+        <module name="14_FlyWeightPattern" />
+        <module name="17_PrototypePattern" />
+        <module name="07_ObserverPattern" />
+        <module name="02_SimpleFactoryPattern" />
+        <module name="22_MediatorPattern" />
+        <module name="24_InterpreterPattern" />
+        <module name="11_ProxyPattern" />
+        <module name="19_IteratorPattern" />
+        <module name="21_BridgePattern" />
+        <module name="06_AdapterPattern" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="13_模板方法模式" target="8" />
+      <module name="18_MementoPattern" target="8" />
+      <module name="2_SimpleFactoryPattern" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

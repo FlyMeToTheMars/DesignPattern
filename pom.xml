@@ -9,12 +9,44 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>1_SingletonPattern</module>
+        <module>01_SingletonPattern</module>
+        <module>02_SimpleFactoryPattern</module>
+        <module>03_FactoryPattern</module>
+        <module>04_AbstractFactoryPattern</module>
+        <module>05_DecoratorPattern</module>
+        <module>06_AdapterPattern</module>
+        <module>07_ObserverPattern</module>
+        <module>08_FacadePattern</module>
+        <module>09_StatePattern</module>
+        <module>10_StrategyPattern</module>
+        <module>11_ProxyPattern</module>
+        <module>12_ChainRespPattern</module>
+        <module>13_TemplateMethodPattern</module>
+        <module>14_FlyWeightPattern</module>
+        <module>15_CommandPattern</module>
+        <module>16_BuilderPattern</module>
+        <module>17_PrototypePattern</module>
+        <module>18_MementoPattern</module>
+        <module>19_IteratorPattern</module>
+        <module>20_CompositePattern</module>
+        <module>21_BridgePattern</module>
+        <module>22_MediatorPattern</module>
+        <module>23_VisitorPattern</module>
+        <module>24_InterpreterPattern</module>
     </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 
 </project>
